@@ -5,6 +5,7 @@ This repository contains implementations of linear and logistic regression algor
 
 ## Contents
 MachineLearningFromScratch.ipynb
+
 MachineLearningFromScratch.py - utils only
 
 ## How to Run
