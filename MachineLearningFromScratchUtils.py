@@ -1,14 +1,14 @@
 """
-MathToolsUtils.py
+MathLearningFromScratchUtils.py
 
-This file contain various functions relating to
-linear algebra and differential equations:
-- Determinant calculator
-- ODE solution approximation
-- Linear system solver
+This file contain various functions relating linear
+and logistic regression:
+- Cost functions
+- Gradient descent
+- Feature scaling
+- Prediction functions
 
 Author: James Milgram
-
 """
 import numpy as np
 import matplotlib.pyplot as plt
