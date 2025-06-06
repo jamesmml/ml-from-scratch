@@ -1,5 +1,5 @@
 """
-MathLearningFromScratchUtils.py
+LinearandLogisiticRegressionFromScratchUtils.py
 
 This file contain various functions relating linear
 and logistic regression:
