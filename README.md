@@ -21,7 +21,7 @@ No machine learning libraries (e.g., TensorFlow, PyTorch, scikit-learn) are used
 
 [LinearandLogisiticRegressionFromScratchUtils.py](LinearandLogisiticRegressionFromScratchUtils.py) - utils only
 
-NeuralNetworksFromScratch.ipynb - soon!
+[NeuralNetworksFromScratch.ipynb](NeuralNetworksFromScratch.ipynb)
 
 [NeuralNetworksFromScratchUtils.py](NeuralNetworksFromScratchUtils.py)
 
