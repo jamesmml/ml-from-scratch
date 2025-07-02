@@ -14,7 +14,7 @@ Building on that foundation, this project now also features full neural network 
 - Batch training
 - Manual architecture configuration (hidden layers and units)
 
-<b>No machine learning libraries (e.g., TensorFlow, PyTorch, scikit-learn) are used</b>. This project demonstrates a strong grasp of the core mechanics behind neural networks, including how training, activation functions, and backpropagation work under the hood.
+**No machine learning libraries (e.g., TensorFlow, PyTorch, scikit-learn) are used**. This project demonstrates a strong grasp of the core mechanics behind neural networks, including how training, activation functions, and backpropagation work under the hood.
 
 ## Contents
 [LinearandLogisiticRegressionFromScratch.ipynb](LinearandLogisiticRegressionFromScratch.ipynb)
