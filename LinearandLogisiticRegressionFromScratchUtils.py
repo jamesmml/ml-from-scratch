@@ -1,7 +1,7 @@
 """
 LinearandLogisiticRegressionFromScratchUtils.py
 
-This file contain various functions relating linear
+This file contains various functions relating linear
 and logistic regression:
 - Cost functions
 - Gradient descent
