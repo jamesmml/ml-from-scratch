@@ -14,16 +14,19 @@ Building on that foundation, this project now also features full neural network 
 - Batch training
 - Manual architecture configuration (hidden layers and units)
 
-No machine learning libraries (e.g., TensorFlow, PyTorch, scikit-learn) are used. This project demonstrates a strong grasp of the core mechanics behind neural networks, including how training, activation functions, and backpropagation work under the hood.
+<b>No machine learning libraries (e.g., TensorFlow, PyTorch, scikit-learn) are used</b>. This project demonstrates a strong grasp of the core mechanics behind neural networks, including how training, activation functions, and backpropagation work under the hood.
 
 ## Contents
 [LinearandLogisiticRegressionFromScratch.ipynb](LinearandLogisiticRegressionFromScratch.ipynb)
 
-[LinearandLogisiticRegressionFromScratchUtils.py](LinearandLogisiticRegressionFromScratchUtils.py)
+[LinearandLogisiticRegressionFromScratchUtils.py](LinearandLogisiticRegressionFromScratchUtils.py) - utils only
 
 [NeuralNetworksFromScratch.ipynb](NeuralNetworksFromScratch.ipynb)
 
-[NeuralNetworksFromScratchUtils.py](NeuralNetworksFromScratchUtils.py)
+[NeuralNetworksFromScratchUtils.py](NeuralNetworksFromScratchUtils.py) - utils only
+
+## Notes
+The multiclass dense NN is built entirely from scratch with NumPy. While it is fully functional, training can be slow on larger datasets compared to optimized libraries like TensorFlow or PyTorch. This design choice was intentional to reinforce core learning.
 
 ## How to Run
 The `.ipynb` files (Jupyter Notebooks) can be run from top to bottom where they exhibit my machine learning journey. 
