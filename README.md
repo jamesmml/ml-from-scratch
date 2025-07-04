@@ -17,13 +17,15 @@ Building on that foundation, this project now also features full neural network 
 **No machine learning libraries (e.g., TensorFlow, PyTorch, scikit-learn) are used**. This project demonstrates a strong grasp of the core mechanics behind neural networks, including how training, activation functions, and backpropagation work under the hood.
 
 ## Contents
-[LinearandLogisiticRegressionFromScratch.ipynb](LinearandLogisiticRegressionFromScratch.ipynb)
+The contents of the repository are split into two directories:
 
-[LinearandLogisiticRegressionFromScratchUtils.py](LinearandLogisiticRegressionFromScratchUtils.py) - utils only
+- [linear-logistic-from-scratch](linear-logistic-from-scratch/):
+  - [LinearandLogisiticRegressionFromScratch.ipynb](linear-logistic-from-scratch/LinearandLogisiticRegressionFromScratch.ipynb)
+  - [LinearandLogisiticRegressionFromScratchUtils.py](linear-logistic-from-scratch/LinearandLogisiticRegressionFromScratchUtils.py) - utils only
 
-[NeuralNetworksFromScratch.ipynb](NeuralNetworksFromScratch.ipynb)
-
-[NeuralNetworksFromScratchUtils.py](NeuralNetworksFromScratchUtils.py) - utils only
+- [nn-from-scratch](nn-from-scratch/):
+  - [NeuralNetworksFromScratch.ipynb](nn-from-scratch/NeuralNetworksFromScratch.ipynb)
+  - [NeuralNetworksFromScratchUtils.py](nn-from-scratch/NeuralNetworksFromScratchUtils.py) - utils only
 
 ## Notes
 The multiclass dense NN is built entirely from scratch with NumPy. While it is fully functional, training can be slow on larger datasets compared to optimized libraries like TensorFlow or PyTorch. This design choice was intentional to reinforce core learning.
