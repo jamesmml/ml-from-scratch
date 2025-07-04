@@ -20,11 +20,11 @@ Building on that foundation, this project now also features full neural network 
 The contents of the repository are split into two directories:
 
 - [linear-logistic-from-scratch](linear-logistic-from-scratch/):
-  - [LinearandLogisiticRegressionFromScratch.ipynb](linear-logistic-from-scratch/LinearandLogisiticRegressionFromScratch.ipynb)
-  - [LinearandLogisiticRegressionFromScratchUtils.py](linear-logistic-from-scratch/LinearandLogisiticRegressionFromScratchUtils.py) - utils only
+  - [LinearandLogisticRegressionFromScratch.ipynb](linear-logistic-from-scratch/LinearandLogisticRegressionFromScratch.ipynb)
+  - [LinearandLogisticRegressionFromScratchUtils.py](linear-logistic-from-scratch/LinearandLogisticRegressionFromScratchUtils.py) - utils only
 
 - [nn-from-scratch](nn-from-scratch/):
-  - [MNIST-DIGITS-NNBLUEPRINT.pdf](nn-from-scratch/MNIST-DIGITS-NNBLUEPRINT.pdf) - dense NN blueprint for MNIST digit classifcation
+  - [MNIST-DIGITS-NNBLUEPRINT.pdf](nn-from-scratch/MNIST-DIGITS-NNBLUEPRINT.pdf) - dense NN blueprint for MNIST digit classification
   - [NeuralNetworksFromScratch.ipynb](nn-from-scratch/NeuralNetworksFromScratch.ipynb)
   - [NeuralNetworksFromScratchUtils.py](nn-from-scratch/NeuralNetworksFromScratchUtils.py) - utils only
 
