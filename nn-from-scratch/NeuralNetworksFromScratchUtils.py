@@ -479,3 +479,69 @@ def multi_class_accuracy(y,yhat):
     percent_correct = correct_predictions / y.shape[0]
 
     return percent_correct
+
+def train_neural_network_multiclass_w_tuning(X,y,layer_list,epochs,alpha,batch_size,cv_data,cv_target):
+    """
+    REQUIRES NUMPY AS NP
+    
+    Trains a neural network via categorical
+    cross-entropy loss
+
+    The parameters W, B are initialized using
+    He initialization
+
+    Args:
+        X : Training examples (2D NumPy array)
+        y : Training values (2D NumPy array)
+        layer_list : 
+        epochs : Number of epochs desired (int)
+        alpha : Learning rate (int/float)
+        batch_size : Desired batch size (int)
+
+    Returns:
+        W : Weights list (List of 2D NumPy arrays)
+        B : Bias list (List of 2D NumPy arrays)
+    """
+    W = []
+    B = []
+
+    input_dim = X.shape[1]
+    full_layer_list = [input_dim] + layer_list
+  
+    for i in range(len(layer_list)):
+        w = np.random.randn(full_layer_list[i], full_layer_list[i + 1]) * np.sqrt(2. / full_layer_list[i])
+        b = np.zeros((1, full_layer_list[i + 1]))
+        W.append(w)
+        B.append(b)
+
+    m = X.shape[0]
+    num_batches = int(np.ceil(m / batch_size))
+
+    initial_alpha = alpha
+
+    for epoch in range(epochs):
+        permutation_array = np.random.permutation(m)
+        X_shuffled = X[permutation_array]
+        y_shuffled = y[permutation_array]
+
+        alpha = initial_alpha * (0.97 ** (epoch // 8))
+
+        for batch_idx in range(num_batches):
+            start = batch_idx * batch_size
+            end = min(start + batch_size, m)
+            
+            X_batch = X[start:end]
+            y_batch = y[start:end]
+            
+            z, a = forward_prop_multiclass(X_batch,W,B)
+            W, B = backward_prop_multiclass(X_batch,y_batch,W,B,a,z,alpha)
+
+        if (epoch % 20 == 0):
+            print(f"Status: Epoch {epoch} of {epochs}")
+            val_preds = multi_class_predict(cv_data, W, B)
+            val_acc = multi_class_accuracy(cv_target, val_preds)
+            print(f"CV Accuracy at Epoch {epoch}: {val_acc:.4f}")
+        if (epoch == epochs - 1):
+            print("Model training is complete.")
+
+    return W, B
