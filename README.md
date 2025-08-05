@@ -24,6 +24,7 @@ The contents of the repository are split into two directories:
   - [LinearandLogisticRegressionFromScratchUtils.py](linear-logistic-from-scratch/LinearandLogisticRegressionFromScratchUtils.py) - utils only
 
 - [nn-from-scratch](nn-from-scratch/):
+  - [HeartDiseaseClassification.ipynb](nn-from-scratch/HeartDiseaseClassification.ipynb)
   - [MNIST-DIGITS-NNBLUEPRINT.pdf](nn-from-scratch/MNIST-DIGITS-NNBLUEPRINT.pdf) - dense NN blueprint for MNIST digit classification
   - [NeuralNetworksFromScratch.ipynb](nn-from-scratch/NeuralNetworksFromScratch.ipynb)
   - [NeuralNetworksFromScratchUtils.py](nn-from-scratch/NeuralNetworksFromScratchUtils.py) - utils only
