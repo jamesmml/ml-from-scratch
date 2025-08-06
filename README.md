@@ -17,17 +17,19 @@ Building on that foundation, this project now also features full neural network 
 **No machine learning libraries (e.g., TensorFlow, PyTorch, scikit-learn) are used**. This project demonstrates a strong grasp of the core mechanics behind neural networks, including how training, activation functions, and backpropagation work under the hood.
 
 ## Contents
-The contents of the repository are split into two directories:
+The contents of the repository are split into three directories:
 
 - [linear-logistic-from-scratch](linear-logistic-from-scratch/):
   - [LinearandLogisticRegressionFromScratch.ipynb](linear-logistic-from-scratch/LinearandLogisticRegressionFromScratch.ipynb)
   - [LinearandLogisticRegressionFromScratchUtils.py](linear-logistic-from-scratch/LinearandLogisticRegressionFromScratchUtils.py) - utils only
 
 - [nn-from-scratch](nn-from-scratch/):
-  - [HeartDiseaseClassification.ipynb](nn-from-scratch/HeartDiseaseClassification.ipynb)
   - [MNIST-DIGITS-NNBLUEPRINT.pdf](nn-from-scratch/MNIST-DIGITS-NNBLUEPRINT.pdf) - dense NN blueprint for MNIST digit classification
   - [NeuralNetworksFromScratch.ipynb](nn-from-scratch/NeuralNetworksFromScratch.ipynb)
   - [NeuralNetworksFromScratchUtils.py](nn-from-scratch/NeuralNetworksFromScratchUtils.py) - utils only
+ 
+- [real-world-applications](real-world-applications)
+  - [HeartDiseaseClassification.ipynb](real-world-applications/HeartDiseaseClassification.ipynb) - dense NN used for heart disease classification
 
 ## Notes
 The multiclass dense NN is built entirely from scratch with NumPy. While it is fully functional, training can be slow on larger datasets compared to optimized libraries like TensorFlow or PyTorch. This design choice was intentional to reinforce core learning.
