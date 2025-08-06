@@ -28,7 +28,7 @@ The contents of the repository are split into three directories:
   - [NeuralNetworksFromScratch.ipynb](nn-from-scratch/NeuralNetworksFromScratch.ipynb)
   - [NeuralNetworksFromScratchUtils.py](nn-from-scratch/NeuralNetworksFromScratchUtils.py) - utils only
  
-- [real-world-applications](real-world-applications)
+- [real-world-applications](real-world-applications):
   - [HeartDiseaseClassification.ipynb](real-world-applications/HeartDiseaseClassification.ipynb) - dense NN used for heart disease classification
 
 ## Notes
