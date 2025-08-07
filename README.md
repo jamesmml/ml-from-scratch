@@ -32,7 +32,7 @@ The contents of the repository are split into three directories:
   - [HeartDiseaseClassification.ipynb](real-world-applications/HeartDiseaseClassification.ipynb) - dense NN used for heart disease classification
 
 ## Notes
-The multiclass dense NN is built entirely from scratch with NumPy. While it is fully functional, training can be slow on larger datasets compared to optimized libraries like TensorFlow or PyTorch. This design choice was intentional to reinforce core learning.
+The dense NNs are built entirely from scratch with NumPy. While they are fully functional, training can be slow on larger datasets compared to optimized libraries like TensorFlow or PyTorch. This design choice was intentional to reinforce core learning.
 
 ## How to Run
 The `.ipynb` files (Jupyter Notebooks) can be run from top to bottom where they exhibit my machine learning journey. 
