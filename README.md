@@ -30,6 +30,7 @@ The contents of the repository are split into three directories:
  
 - [real-world-applications](real-world-applications):
   - [HeartDiseaseClassification.ipynb](real-world-applications/HeartDiseaseClassification.ipynb) - dense NN used for heart disease classification
+  - [ImageCompression.ipynb](real-world-applications/ImageCompression.ipynb) - k-means for image compression
 
 ## Notes
 The dense NNs are built entirely from scratch with NumPy. While they are fully functional, training can be slow on larger datasets compared to optimized libraries like TensorFlow or PyTorch. This design choice was intentional to reinforce core learning.
