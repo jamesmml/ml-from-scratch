@@ -5,7 +5,7 @@ This repository contains implementations of linear and logistic regression algor
 
 The regression models were originally developed while following Andrew Ng’s Machine Learning Specialization course on Coursera. These include core machine learning techniques such as gradient descent, cost function optimization, and basic data visualization.
 
-Building on that foundation, this project now also features full neural network frameworks capable of both binary and multiclass classification. It supports:
+Building on that foundation, this project also features full neural network frameworks capable of both binary and multiclass classification. It supports:
 
 - Forward and backward propagation
 - Sigmoid, ReLU, and Softmax activations
@@ -31,6 +31,19 @@ The contents of the repository are split into three directories:
 - [real-world-applications](real-world-applications):
   - [HeartDiseaseClassification.ipynb](real-world-applications/HeartDiseaseClassification.ipynb) - dense NN used for heart disease classification
   - [ImageCompression.ipynb](real-world-applications/ImageCompression.ipynb) - k-means for image compression
+
+## Models in Action
+***Logistic Regression***
+
+<img src = "assets/logisticregression.png" alt = "Regression boundary" width = 500>
+
+***Digit Identification***
+
+<img src = "assets/digitclassification.png" alt = "Digit classification" width = 500>
+
+***Image Compression***
+
+<img src = "assets/imagecompression.png" alt = "Compressed image" height = 500>
 
 ## Notes
 The dense NNs are built entirely from scratch with NumPy. While they are fully functional, training can be slow on larger datasets compared to optimized libraries like TensorFlow or PyTorch. This design choice was intentional to reinforce core learning.
