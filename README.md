@@ -41,7 +41,7 @@ The `.ipynb` files (Jupyter Notebooks) can be run from top to bottom where they 
 The `.py` files contain the reusable functions for linear/logistic regression models. One can import these functions for use in other projects or one can use them as standalone scripts.
 
 ## What One Will Learn
-This project helped me understand the fundamentals of machine learning, including gradient descent, cost functions, and model training (supervised learning). 
+This project helped me understand the fundamentals of machine learning, including gradient descent, cost functions, and model training (supervised and unsupervised learning). 
 
 ## Author
 James Milgram
