@@ -545,3 +545,40 @@ def train_neural_network_multiclass_w_tuning(X,y,layer_list,epochs,alpha,batch_s
             print("Model training is complete.")
 
     return W, B
+
+def get_image_idx(y, yhat, correct=True):
+    """
+    REQUIRES NUMPY AS NP
+    
+    Obtains the index of a
+    random image
+
+    Args:
+        y - Actual values (2D NumPy array)
+        yhat - Predicted values (2D NumPy array)
+        correct - Whether a correct index is desired; default is True
+        
+    Returns:
+        rand_idx - Random index
+    """
+    if type(correct) != bool:
+        raise ValueError("\"correct\" must be a boolean.")
+    if len(y.shape) != 2 or len(yhat.shape) != 2:
+        raise ValueError("\"y\" and \"yhat\" must be 2D NumPy arrays.")
+    if y.shape != yhat.shape:
+        raise ValueError("\"y\" and \"yhat\" must have the same shape.")
+
+    m = y.shape[0]
+
+    while True:
+        rand_idx = np.random.randint(0, m)
+
+        prediction = np.argmax(yhat[rand_idx])
+        actual = np.argmax(y[rand_idx])
+
+        if correct:
+            if prediction == actual:
+                return rand_idx, prediction, actual
+        else:
+            if prediction != actual:
+                return rand_idx, prediction, actual
