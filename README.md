@@ -51,7 +51,7 @@ The dense NNs are built entirely from scratch with NumPy. While they are fully f
 ## How to Run
 The `.ipynb` files (Jupyter Notebooks) can be run from top to bottom where they exhibit my machine learning journey. 
 
-The `.py` files contain the reusable functions for linear/logistic regression models. One can import these functions for use in other projects or one can use them as standalone scripts.
+The `.py` files contain the reusable functions for linear/logistic regression models. One can import these functions for use in other projects.
 
 ## What One Will Learn
 This project helped me understand the fundamentals of machine learning, including gradient descent, cost functions, and model training (supervised and unsupervised learning). 
